@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026_3분기_매출실적.xlsx - Excel</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='4' width='22' height='24' rx='2' fill='%2333c481'/%3E%3Crect x='2' y='8' width='16' height='16' rx='2' fill='%23107c41'/%3E%3Cpath d='M6 12l3 4-3 4h2.4l1.8-2.6L12 20h2.4l-3-4 3-4H12l-1.8 2.6L8.4 12z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="titlebar">
+      <div class="tb-left">
+        <span class="tb-autosave">자동 저장 <span class="toggle"></span></span>
+        <span class="tb-ico">&#8630;</span><span class="tb-ico">&#8631;</span>
+      </div>
+      <div class="tb-title">2026_3분기_매출실적.xlsx - Excel</div>
+      <div class="tb-search">검색</div>
+      <div class="tb-right">
+        <span class="win">&#8212;</span><span class="win">&#9744;</span><span class="win close">&#10005;</span>
+      </div>
+    </header>
+
+    <nav class="ribbon-tabs">
+      <span class="rt">파일</span><span class="rt active">홈</span><span class="rt">삽입</span><span class="rt">그리기</span>
+      <span class="rt">페이지 레이아웃</span><span class="rt">수식</span><span class="rt">데이터</span><span class="rt">검토</span>
+      <span class="rt">보기</span><span class="rt">도움말</span>
+      <span class="rt-right"><span class="rt-btn">메모</span><span class="rt-btn share">공유</span></span>
+    </nav>
+
+    <div class="ribbon">
+      <div class="rg">
+        <div class="rg-body">
+          <div class="big-btn"><div class="ico-paste"></div>붙여넣기</div>
+          <div class="stack"><span>잘라내기</span><span>복사</span><span>서식 복사</span></div>
+        </div>
+        <div class="rg-label">클립보드</div>
+      </div>
+      <div class="rg">
+        <div class="rg-body col">
+          <div class="line"><span class="sel w120">맑은 고딕</span><span class="sel w40">11</span><span class="btn">가<sup>^</sup></span><span class="btn">가<sub>v</sub></span></div>
+          <div class="line"><span class="btn b">가</span><span class="btn i">가</span><span class="btn u">가</span><span class="btn">&#9638;</span><span class="btn fill">&#9635;</span><span class="btn fc">가</span></div>
+        </div>
+        <div class="rg-label">글꼴</div>
+      </div>
+      <div class="rg">
+        <div class="rg-body col">
+          <div class="line"><span class="btn">&#8801;</span><span class="btn">&#8801;</span><span class="btn">&#8801;</span><span class="btn">ab&#8629;</span></div>
+          <div class="line"><span class="btn">&#8676;</span><span class="btn">&#8801;</span><span class="btn">&#8677;</span><span class="btn">병합 &#9662;</span></div>
+        </div>
+        <div class="rg-label">맞춤</div>
+      </div>
+      <div class="rg">
+        <div class="rg-body col">
+          <div class="line"><span class="sel w100">일반</span></div>
+          <div class="line"><span class="btn">&#8361;</span><span class="btn">%</span><span class="btn">,</span><span class="btn">.0</span><span class="btn">.00</span></div>
+        </div>
+        <div class="rg-label">표시 형식</div>
+      </div>
+      <div class="rg">
+        <div class="rg-body col">
+          <span class="btn wide">조건부 서식 &#9662;</span>
+          <span class="btn wide">표 서식 &#9662;</span>
+          <span class="btn wide">셀 스타일 &#9662;</span>
+        </div>
+        <div class="rg-label">스타일</div>
+      </div>
+      <div class="rg">
+        <div class="rg-body col">
+          <span class="btn wide">삽입 &#9662;</span>
+          <span class="btn wide">삭제 &#9662;</span>
+          <span class="btn wide">서식 &#9662;</span>
+        </div>
+        <div class="rg-label">셀</div>
+      </div>
+      <div class="rg">
+        <div class="rg-body col">
+          <span class="btn wide">&#931; 자동 합계 &#9662;</span>
+          <span class="btn wide">채우기 &#9662;</span>
+          <span class="btn wide">지우기 &#9662;</span>
+        </div>
+        <div class="rg-body col">
+          <span class="btn wide">정렬 및 필터 &#9662;</span>
+          <span class="btn wide">찾기 및 선택 &#9662;</span>
+        </div>
+        <div class="rg-label">편집</div>
+      </div>
+    </div>
+
+    <div class="formula-bar">
+      <div id="nameBox" class="name-box">A1</div>
+      <div class="fb-icons"><span>&#8942;</span><span>&#10005;</span><span>&#10003;</span><span class="fx">fx</span></div>
+      <div id="formula" class="formula"></div>
+    </div>
+
+    <main id="sheet" class="sheet">
+      <div id="grid" class="grid"></div>
+      <div id="dialogLayer"></div>
+    </main>
+
+    <div class="sheet-tabs">
+      <div class="st-nav"><span>&#9664;</span><span>&#9654;</span></div>
+      <div id="tabs" class="tabs"></div>
+      <div class="st-add">&#8853;</div>
+    </div>
+
+    <footer class="statusbar">
+      <span id="stLeft">준비</span>
+      <span class="st-acc">접근성: 계속 진행 가능</span>
+      <span class="st-right">
+        <span id="stStats"></span>
+        <span class="st-views">&#9638; &#9645; &#9647;</span>
+        <span class="zoom">&#8212; <span class="zbar"><span class="zknob"></span></span> + 100%</span>
+      </span>
+    </footer>
+  </div>
+
+  <script src="js/storage.js"></script>
+  <script src="js/stages.js"></script>
+  <script src="js/items.js"></script>
+  <script src="js/obstacles.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
